@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: sample-22-2
+
+/createOrder:
+  post:
+    body:
+      application/json:
+        example:
+          {"id" : 2}
+    responses:
+      201:
+        body:
+          application/json:
+            example:
+              {"message" :"order created"}
+  
+              
+                                  
